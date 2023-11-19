@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/update_pos"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_updatePos" />
+
+    <item
+        android:id="@+id/ringing"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_ringing" />
+
+    <item
+        android:id="@+id/send_notification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_sendNotification" />
+
+</menu>

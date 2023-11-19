@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/update_pos">
+
+    <fragment
+        android:id="@+id/update_pos"
+        android:name="com.yeonfish.bigbrother.ui.updatePos.UpdatePosFragment"
+        android:label="@string/title_updatePos"
+        tools:layout="@layout/fragment_updatepos" />
+
+    <fragment
+        android:id="@+id/ringing"
+        android:name="com.yeonfish.bigbrother.ui.ringing.RingingFragment"
+        android:label="@string/title_ringing"
+        tools:layout="@layout/fragment_ringing" />
+
+    <fragment
+        android:id="@+id/send_notification"
+        android:name="com.yeonfish.bigbrother.ui.sendNotification.NotificationsFragment"
+        android:label="@string/title_sendNotification"
+        tools:layout="@layout/fragment_send_notification" />
+</navigation>
